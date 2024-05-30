@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "665730a1ad861e75ca74ba20"
+  },
+  "body": "A mis hijos les ha encantado.",
+  "imdbId": "tt3915174",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "665730adad861e75ca74ba21"
+  },
+  "body": "La hemos visto en casa y genial.",
+  "imdbId": "tt3915174",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "665730bead861e75ca74ba22"
+  },
+  "body": "Me ha encantado el lobo",
+  "imdbId": "tt3915174",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66576443ad861e75ca74ba23"
+  },
+  "body": "Me gustó mas la primera.",
+  "imdbId": "tt1630029",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "6657645fad861e75ca74ba24"
+  },
+  "body": "Una pérdida de tiempo",
+  "imdbId": "tt11116912",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "665764d8ad861e75ca74ba25"
+  },
+  "body": "Mas risa que miedo",
+  "imdbId": "tt8760708",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "665764e9ad861e75ca74ba26"
+  },
+  "body": "Megan me cago en la mar que mal rollo das",
+  "imdbId": "tt8760708",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584d8efca1b906c32b1071"
+  },
+  "body": "En 3D ha sido una pasada",
+  "imdbId": "tt1630029",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584da6fca1b906c32b1072"
+  },
+  "body": "Malísima",
+  "imdbId": "tt11116912",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584db9fca1b906c32b1073"
+  },
+  "body": "The Rock haciendo de the Shazam!",
+  "imdbId": "tt6443346",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584dc6fca1b906c32b1074"
+  },
+  "body": "Buena para la tarde del domingo",
+  "imdbId": "tt6443346",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584dcefca1b906c32b1075"
+  },
+  "body": "Masterpiece",
+  "imdbId": "tt0499549",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584dd4fca1b906c32b1076"
+  },
+  "body": "La recordaba mejor",
+  "imdbId": "tt0499549",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584ddbfca1b906c32b1077"
+  },
+  "body": "Mejor la original",
+  "imdbId": "tt3447590",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584de5fca1b906c32b1078"
+  },
+  "body": "Me ha recordado al musical de Broadway",
+  "imdbId": "tt3447590",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584df8fca1b906c32b1079"
+  },
+  "body": "Será un clasico de Marvel con el tiempo",
+  "imdbId": "tt9114286",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e05fca1b906c32b107a"
+  },
+  "body": "Buena animación, mala historia",
+  "imdbId": "tt10298840",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e0efca1b906c32b107b"
+  },
+  "body": "Contenido hecho para Disney+",
+  "imdbId": "tt10298840",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e1dfca1b906c32b107c"
+  },
+  "body": "Me ha encantado",
+  "imdbId": "tt8093700",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e25fca1b906c32b107d"
+  },
+  "body": "El de arriba no tiene ni idea",
+  "imdbId": "tt8093700",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e32fca1b906c32b107e"
+  },
+  "body": "Masterpiece de anime",
+  "imdbId": "tt8072649",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e38fca1b906c32b107f"
+  },
+  "body": "Rubén nos obligó a ponerla",
+  "imdbId": "tt8072649",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e5bfca1b906c32b1080"
+  },
+  "body": "Una de las mejores películas de Studio Ghibli",
+  "imdbId": "tt6472560",
+  "_class": "fdb.FilmDatabase.Review"
+},
+{
+  "_id": {
+    "$oid": "66584e61fca1b906c32b1081"
+  },
+  "body": "El fuego es muy cute",
+  "imdbId": "tt6472560",
+  "_class": "fdb.FilmDatabase.Review"
+}]

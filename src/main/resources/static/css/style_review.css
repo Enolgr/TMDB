@@ -1,0 +1,235 @@
+:root{
+    --azul: #061421;
+    --amarillo: #ffde00;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    font-family: 'General Sans', sans-serif;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(8,33,52);
+    background: radial-gradient(circle, rgba(8,33,52,1) 0%, var(--azul) 100%);
+}
+
+h1{
+    padding: 3rem 0 1rem 0;
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+
+
+.review p:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+
+.review p:last-child {
+    font-size: 0.9em;
+    color: #888;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    #reviews {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .review p:first-child {
+        font-size: 1em;
+    }
+
+    .review p:last-child {
+        font-size: 0.8em;
+    }
+}
+/* Contenedor de información de la película con display grid */
+.info-container {
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.contenedor {
+    margin: 0 4rem;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+}
+
+.poster {
+    border-radius: 0.3rem;
+    width: auto;
+    height: 70vh ;
+}
+
+.genres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.genre {
+    background-color: var(--amarillo);
+    font-family: "General Sans";
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    padding: 0.5rem ;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.carousel {
+    border-radius: 0.3rem;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    grid-column: span 1;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.div-reviews{
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    column-span: 2;
+}
+
+#reviews {
+    color: var(--amarillo);
+    width: 50rem;
+    height: 10rem;
+    margin-bottom: 8rem;
+    border-radius: 8px;
+}
+
+.review {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review p {
+    margin: 5px 0;
+    color: var(--amarillo); !important;
+}
+
+/* Estilo general del formulario */
+.formulario {
+    width: 400px; /* Ancho del formulario */
+    height: fit-content; /* Altura según el contenido */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: transparent;
+}
+
+/* Estilo del campo de texto */
+.formulario #texto {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px; /* Tamaño de la fuente aumentado */
+    outline: none;
+    padding: 15px; /* Relleno aumentado */
+    background-color: white;
+    margin: 3rem 0;
+}
+
+/* Estilo del botón de envío */
+.formulario #boton {
+    background-color: var(--amarillo);
+    font-weight: 900;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-container{
+    border: 1px solid var(--amarillo);
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.form-container h2{
+    text-align: center;
+}
+
+
+
+

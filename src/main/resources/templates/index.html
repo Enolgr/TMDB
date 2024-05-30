@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Películas</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<section class="menu">
+    <div class="logo">
+        <img src="../img/logo.svg" alt="logo">
+    </div>
+    <nav class="items-menu">
+        <a href="#">Inicio</a>
+        <a href="#">Miedo</a>
+        <a href="#">Acción</a>
+        <a href="#">Animación</a>
+    </nav>
+
+</section>
+
+<section class="hero">
+    <div class="titulo">
+    <h1>Your review network</h1>
+    <h2>Comment, like and share it! </h2>
+    </div>
+</section>
+
+
+
+<div id="peliculas">
+
+</div>
+
+<script th:src="@{/js/app.js}" defer></script>
+</body>
+</html>
